@@ -8,6 +8,7 @@
   <meta name="description" content="Meet Dr. Caitlin Jordan (Dr. CJ), sports chiropractor at Vitality Chiropractic &amp; Rehab in Monroeville, PA. University of Pittsburgh, Cal U, and NYCC graduate.">
   <link rel="canonical" href="https://vitalitychiropracticandrehab.com/our-doctor.html">
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
   <script type="application/ld+json">
   {
@@ -28,21 +29,58 @@
   </script>
 </head>
 <body>
-  <header class="site-header">
-    <div class="top-bar"><div class="container"><div class="top-bar-left"><span>&#128205; 4314 Old William Penn Hwy, Suite 103, Monroeville, PA 15146</span><a href="tel:4126461991">&#128222; (412) 646-1991</a></div><div class="top-bar-right"><div class="social-links"><a href="https://www.facebook.com/vitalitychiroandrehab" target="_blank" rel="noopener">FB</a><a href="https://www.instagram.com/Thetallvitalitychiros" target="_blank" rel="noopener">IG</a></div><a href="https://squareup.com/appointments/book/ekmas6rd51cpri/NGTY6569X3SR3/services" target="_blank" class="btn-appointment">Book Now</a></div></div></div>
-    <nav class="nav-main">
-      <a href="index.html" class="logo"><img src="images/logo.svg" alt="Vitality Chiropractic &amp; Rehab" width="220" height="50"></a>
-      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
-      <div class="nav-links">
-        <a href="index.html">Home</a><a href="about.html">About</a><a href="our-doctor.html" class="active">Our Doctor</a>
-        <div class="nav-dropdown"><a href="chiropractic-care.html">Services</a><div class="dropdown-menu"><a href="services/prenatal-postnatal-postpartum.html">Pre/Post Natal Care</a><a href="services/physical-therapy.html">Physical Therapy</a><a href="services/sports-injuries.html">Sports Injuries</a></div></div>
-        <a href="what-we-treat.html">What We Treat</a><a href="new-patient.html">New Patient</a><a href="reviews.html">Reviews</a><a href="contact-us.html">Contact</a>
-        <a href="https://squareup.com/appointments/book/ekmas6rd51cpri/NGTY6569X3SR3/services" target="_blank" class="btn-appointment">Book Appointment</a>
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-left">
+        <div class="social-icons">
+          <a href="https://www.facebook.com/vitalitychiroandrehab/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.google.com/maps/place/VITALITY+CHIROPRACTIC+%26+REHAB/@40.4419962,-79.7759826,15z" target="_blank" rel="noopener" aria-label="Google Maps"><i class="fab fa-google"></i></a>
+          <a href="https://www.instagram.com/Thetallvitalitychiros" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
       </div>
-    </nav>
+      <div class="top-bar-right">
+        <span class="top-bar-phone">call/text us at</span>
+        <a href="tel:4126461991" class="top-bar-number">(412) 646-1991</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-main">
+        <a href="index.html" class="logo">
+          <img src="https://static.royacdn.com/Site-a8ba3c0d-f496-4d22-b002-28b0c5800e31/logo/logo.png" alt="Vitality Chiropractic &amp; Rehab" onerror="this.onerror=null;this.src='images/logo.svg';">
+        </a>
+        <button class="hamburger" aria-label="Menu" id="hamburgerBtn">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="navLinks">
+          <a href="index.html">Home</a>
+          <a href="our-doctor.html">Meet The Doctor</a>
+          <a href="chiropractic-care.html">Services</a>
+          <a href="what-we-treat.html">What We Treat</a>
+          <div class="nav-dropdown">
+            <a href="#" class="dropdown-toggle">Patient Center</a>
+            <div class="dropdown-menu">
+              <a href="new-patient.html">Patient Forms</a>
+              <a href="payment-options.html">Payment Options &amp; Insurance</a>
+              <a href="reviews.html">Testimonials</a>
+              <a href="blog.html">Blog</a>
+            </div>
+          </div>
+          <a href="https://squareup.com/appointments/book/ekmas6rd51cpri/NGTY6569X3SR3/services" target="_blank" class="nav-cta">Schedule an Appointment</a>
+          <a href="employment-opportunities.html">Employment Opportunities</a>
+          <a href="contact-us.html">Contact Us</a>
+        </div>
+        <div class="nav-actions">
+          <a href="tel:4126461991" class="nav-phone" aria-label="Call us"><i class="fas fa-phone"></i></a>
+          <a href="https://squareup.com/appointments/book/ekmas6rd51cpri/NGTY6569X3SR3/services" target="_blank" class="btn-book">Schedule Now</a>
+        </div>
+      </nav>
+    </div>
   </header>
 
-  <section class="page-hero">
+<section class="page-hero">
     <div class="container">
       <h1>Meet Our Doctor</h1>
       <p>Dr. Caitlin Jordan, DC, MS</p>
@@ -91,13 +129,26 @@
 
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand"><img src="images/logo.svg" alt="Vitality Chiropractic &amp; Rehab" width="200" height="45" style="filter:brightness(0) invert(1);"><p>Evidence-based chiropractic care and physical therapy in Monroeville, PA.</p><div class="footer-social"><a href="https://www.facebook.com/vitalitychiroandrehab" target="_blank" rel="noopener">FB</a><a href="https://www.instagram.com/Thetallvitalitychiros" target="_blank" rel="noopener">IG</a></div></div>
-        <div class="footer-col"><h4>Quick Links</h4><a href="about.html">About Us</a><a href="our-doctor.html">Our Doctor</a><a href="chiropractic-care.html">Services</a><a href="what-we-treat.html">What We Treat</a><a href="reviews.html">Reviews</a></div>
-        <div class="footer-col"><h4>Services</h4><a href="services/prenatal-postnatal-postpartum.html">Pre/Post Natal Care</a><a href="services/physical-therapy.html">Physical Therapy</a><a href="services/sports-injuries.html">Sports Injuries</a><a href="new-patient.html">New Patient</a><a href="payment-options.html">Payment Options</a></div>
-        <div class="footer-col"><h4>Contact</h4><a href="tel:4126461991">(412) 646-1991</a><a href="contact-us.html">Contact Us</a><a href="employment-opportunities.html">Employment</a><a href="blog.html">Blog</a></div>
+      <div class="footer-top">
+        <div class="footer-social">
+          <a href="https://www.facebook.com/vitalitychiroandrehab/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.google.com/maps/place/VITALITY+CHIROPRACTIC+%26+REHAB/@40.4419962,-79.7759826,15z" target="_blank" rel="noopener" aria-label="Google"><i class="fab fa-google"></i></a>
+          <a href="https://www.instagram.com/Thetallvitalitychiros" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a><span>|</span>
+          <a href="about.html">About</a><span>|</span>
+          <a href="our-doctor.html">Meet the team</a><span>|</span>
+          <a href="chiropractic-care.html">Services</a><span>|</span>
+          <a href="blog.html">Articles</a><span>|</span>
+          <a href="reviews.html">Reviews</a><span>|</span>
+          <a href="contact-us.html">Contact Us</a>
+        </div>
       </div>
-      <div class="footer-bottom"><p>&copy; 2026 Vitality Chiropractic &amp; Rehab. All Rights Reserved. | <a href="accessibility-statement.html">Accessibility Statement</a> | <a href="privacy-policy.html">Privacy Policy</a></p></div>
+      <div class="footer-bottom">
+        <p>Copyright &copy; 2026. All Rights Reserved.<br>
+        <a href="accessibility-statement.html">Accessibility Statement</a> | <a href="sitemap.xml">Sitemap</a> | <a href="privacy-policy.html">Privacy Policy</a></p>
+      </div>
     </div>
   </footer>
   <script src="js/main.js"></script>
